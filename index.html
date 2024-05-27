@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Use nossa calculadora online para resolver rapidamente calculos financeiros. Simples, rápida e precisa!">
+    <meta name="keywords" content="calculadora online, cálculos matemáticos, cálculos financeiros, resolver equações, calculadora simples, calculadora rápida, calculadora precisa, somar, subtrair, dividir, multiplicar">
+    <meta name="author" content="Fabio Henrique">
+    <meta name="robots" content="index, follow">
+    <meta name="revised" content="Sunday, May 26th, 2024, 6:50 pm">
+    <meta name="language" content="Portuguese">
+    <meta name="publisher" content="Fabio Henrique">
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="shortcut icon" href="imags/icone.png" type="image/x-icon">
+
+    <title>Bem-vindo ao Calcula Fácil: Sua calculadora simples e rápida</title>
+</head>
+
+<body>
+    <header>
+        <h1>Bem-vindo ao Calcula Fácil!</h1>
+    </header>
+
+    <main>
+        <!-- Opções que o usuário poderá ter -->
+        <div class="container">
+            <div class="esquerda">
+                <h2>Calculadora</h2>
+                <div class="botoes">
+                    <button id="btnF1" class="botoesFilho" onclick="funcaoJS(event, 'padrao')">Padrão</button>
+                    <button class="botoesFilho" onclick="funcaoJS(event, 'cientifica')">Em Desenvolvimento</button>
+                    <button class="botoesFilho" onclick="funcaoJS(event, )">Em Desenvolvimento</button>
+                </div>
+            </div>
+            
+            <!-- Conteúdo de fato -->
+            <div class="direita">
+                <div id="padrao" class="caixa">
+                    <h3>Padrão</h3>
+                        <form>
+                            <div class="saida">0</div>
+                            <div class="btn">
+                                <button>%</button>
+                                <button>a²</button>
+                                <button>²√a</button>
+                                <button>C</button>
+                                <button>7</button>
+                                <button>8</button>
+                                <button>9</button>
+                                <button>+</button>
+                                <button>4</button>
+                                <button>5</button>
+                                <button>6</button>
+                                <button>-</button>
+                                <button>1</button>
+                                <button>2</button>
+                                <button>3</button>
+                                <button>x</button>
+                                <button>,</button>
+                                <button>0</button>
+                                <button>=</button>
+                                <button>/</button>
+                            </div>
+                        </form>
+                </div>
+                <div id="cientifica" class="caixa">
+                    <h3>Em Desenvolvimento</h3>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="script/index.js"></script>
+</html>
