@@ -32,7 +32,7 @@ header{
     border-radius: 4px;
     background-color: var(--branco);
     width: 20%;
-    height: 350px;/*Ajustar altura*/
+    height: 400px;/*Ajustar altura*/
 }
 
 .esquerda h2{
@@ -54,10 +54,12 @@ header{
     outline: none;
     cursor: pointer;
     transition: 0.3s;
-}.botoes button:hover{
+}
+.botoes button:hover{
     background-color: #f1f1f1;
     transition: 1s;
-}.botoes button.active{
+}
+.botoes button.active{
     background-color: yellow;/*Arrumar isso*/
 }
 
@@ -69,7 +71,8 @@ header{
     width: 80%;
     border-left: none;
     height: 100%;
-}.caixa h3{
+}
+.caixa h3{
     font-size: 30px;
     padding-top: 20px;
     font-family: "Roboto", sans-serif;
@@ -82,16 +85,19 @@ header{
     justify-items: center; /* Centraliza os botões horizontalmente */
     align-items: center; /* Centraliza os botões verticalmente */
     padding: 20px;
-}.btn button{
+}
+.btn button{
     width: 90%;
     height: 30px;
     border-radius: 5px;
     cursor: pointer;
     font-size: 20px;
-}.btn button:hover{
+}
+.btn button:hover{
     background-color: blue; /*Arrumar isso*/
     transition: 1s;
-}.btn button:active{
+}
+.btn button:active{
     background-color: yellow;
 }
 
@@ -105,4 +111,20 @@ header{
     text-align: right;
     background-color: var(--branco);
     min-height: 50px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    background-color: var(--azulEscuro);
+    padding: 20px 50px;
+    height: 150px;
+    width: 100%;
+}
+
+.footer-content{
+    color: white;
+    font-family: "Roboto", sans-serif;
 }
