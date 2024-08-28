@@ -1,2 +1,1 @@
-# calculadora-JavaScript
-Projeto próprio
+# Web Calculadora com HTML, CSS e JavaScript
